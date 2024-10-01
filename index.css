@@ -1,7 +1,10 @@
+@import url(./font.css);
+
 .page {
     margin: auto;
     width: 360px;
     background-color: black;
+    font-family: "эдгар228";
 }
 .header {
     display: flex;
@@ -39,7 +42,7 @@
 }
 .cover{
     color: white;
-    background-image: url(./cover.svg);
+    background-image: url(./photo/cover.svg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
